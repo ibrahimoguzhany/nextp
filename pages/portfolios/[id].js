@@ -1,15 +1,16 @@
 import { useRouter } from 'next/router';
 import React from 'react';
 
-const PortfolioDetail = () => {
+const PortfolioDetail = ({ query }) => {
   const router = useRouter();
+
   const id = router.query.id;
   return <h1>I am Details Page with ID: {id}</h1>;
 };
 
-PortfolioDetail.getInitialProps = ({ query }) => {
-  return { query };
-};
+// PortfolioDetail.getInitialProps = ({ query }) => {
+//   return { query };
+// };
 
 export default PortfolioDetail;
 
