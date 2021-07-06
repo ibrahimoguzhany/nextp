@@ -2,8 +2,6 @@ import Hero from '../components/shared/Hero';
 
 const Home = () => (
   <>
-  
-
     {/* HOME PAGE STARTS */}
     <section className='section-title'>
       <div className='px-2'>
@@ -90,7 +88,7 @@ const Home = () => (
               src='https://via.placeholder.com/150'
               className='avatar-image mr-2'
             ></img>
-            <span className='avatar-title'>Filip Jerga</span>
+            <span className='avatar-title'>Oğuzhan Yılmaz</span>
           </div>
         </a>
         <a
